@@ -7,37 +7,40 @@ Este é um app criado para o Challenge #2 - Know Your Fan da FURIA. Ele coleta d
 - `npm install` para instalar dependências
 - `npm run dev` para rodar o projeto localmente
 
-📸 Demonstração
+## 📸 Demonstração
 ⚡ O projeto pode ser dividido em três partes:
 
-Preenchimento do formulário e análise do fã
+    -Preenchimento do formulário e análise do fã
 
-Visualização de perfil personalizado
+    -Visualização de perfil personalizado
 
-Dashboard com ranking dos fãs FURIOSOS
+    -Dashboard com ranking dos fãs FURIOSOS
 
-🛠️ Tecnologias Utilizadas
-Frontend
-React + Vite
+## 🛠️ Tecnologias Utilizadas
 
-Tailwind CSS
+Frontend:
 
-Componentes personalizados
+ - React + Vite
 
-Backend
-Node.js com Express
+- Tailwind CSS
 
-MySQL + mysql2
+## Componentes personalizados
 
-CORS e JSON middleware
+Backend:
 
-📦 Instalação
+  - Node.js com Express
+
+  - MySQL + mysql2
+
+   - CORS e JSON middleware
+
+## 📦 Instalação
 🔧 Pré-requisitos
-Node.js
+   - Node.js
 
-MySQL (local ou hospedado)
+    - MySQL (local ou hospedado)/ou outro banco de dados
 
-🔁 Backend
+## 🔁 Backend
 Clone o repositório e entre na pasta do backend:
 
 bash
@@ -47,7 +50,7 @@ git clone https://github.com/seu-usuario/furia-fan-insight.git
 cd furia-fan-insight/backend
 Instale as dependências:
 
-bash
+```bash
 Copiar
 Editar
 npm install
@@ -131,14 +134,14 @@ Retorna o ranking completo de fãs, ordenado pela pontuação (score).
 GET /api/test-db
 Testa a conexão com o banco de dados.
 
-💡 Funcionalidades
+##💡 Funcionalidades
 Criação e análise de perfis com base em frequência, humor e preferências
 
 Armazenamento de dados persistentes em banco de dados MySQL
 
 Interface estilizada e responsiva com Tailwind
 
-📈 Possíveis melhorias
+## 📈 Possíveis melhorias
 Edição de perfil via modal ou nova página
 
 Ranking dinâmico com pontuação
@@ -149,6 +152,6 @@ Sistema de login para fãs
 
 Compartilhamento social do perfil
 
-🤝 Contribuição
+## 🤝 Contribuição
 Pull Requests são bem-vindos! Sinta-se à vontade para sugerir melhorias ou reportar bugs.
 
