@@ -87,16 +87,12 @@ O servidor rodará na porta 3001.
 Acesse a pasta frontend e instale as dependências:
 
 ```bash
-Copiar
-Editar
 cd ../frontend
 npm install
 ```
 Inicie o projeto:
 
 ```bash
-Copiar
-Editar
 npm run dev
 ```
 A aplicação estará disponível em http://localhost:5173.
