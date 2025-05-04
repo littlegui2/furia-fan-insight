@@ -71,7 +71,7 @@ CREATE TABLE fan_profile (
 
 ```
 (Opcional) Crie um arquivo .env com suas credenciais do banco:
-
+```bash
 env
 Copiar
 Editar
@@ -79,6 +79,7 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=root
 DB_NAME=fanDB
+```
 Inicie o servidor:
 
 bash
@@ -90,17 +91,19 @@ O servidor rodará na porta 3001.
 ## 💻 Frontend
 Acesse a pasta frontend e instale as dependências:
 
-bash
+```bash
 Copiar
 Editar
 cd ../frontend
 npm install
+```
 Inicie o projeto:
 
-bash
+```bash
 Copiar
 Editar
 npm run dev
+```
 A aplicação estará disponível em http://localhost:5173.
 
 
