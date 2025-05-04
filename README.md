@@ -43,17 +43,19 @@ Backend:
 ## 🔁 Backend
 Clone o repositório e entre na pasta do backend:
 
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/furia-fan-insight.git
-cd furia-fan-insight/backend
+```bash
+  Copiar
+  Editar
+  git clone https://github.com/seu-usuario/furia-fan-insight.git
+  cd furia-fan-insight/backend
+
 Instale as dependências:
 
 ```bash
-Copiar
-Editar
-npm install
+  Copiar
+  Editar
+  npm install
+
 Configure o banco de dados:
 
 Crie um banco chamado fanDB no MySQL.
