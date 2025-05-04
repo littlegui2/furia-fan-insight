@@ -48,8 +48,6 @@ Clone o repositório e entre na pasta do backend:
 Instale as dependências:
 
 ```bash
-  Copiar
-  Editar
   npm install
 
 Configure o banco de dados:
@@ -73,8 +71,6 @@ CREATE TABLE fan_profile (
 (Opcional) Crie um arquivo .env com suas credenciais do banco:
 ```bash
 env
-Copiar
-Editar
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=root
@@ -82,11 +78,10 @@ DB_NAME=fanDB
 ```
 Inicie o servidor:
 
-bash
-Copiar
-Editar
+```bash
 node index.js
 O servidor rodará na porta 3001.
+```
 
 ## 💻 Frontend
 Acesse a pasta frontend e instale as dependências:
