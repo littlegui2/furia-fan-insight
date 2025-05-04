@@ -43,11 +43,7 @@ Backend:
 ## 🔁 Backend
 Clone o repositório e entre na pasta do backend:
 
-```bash
-  Copiar
-  Editar
-  git clone https://github.com/seu-usuario/furia-fan-insight.git
-  cd furia-fan-insight/backend
+
 
 Instale as dependências:
 
@@ -62,9 +58,6 @@ Crie um banco chamado fanDB no MySQL.
 
 Execute o SQL abaixo para criar a tabela:
 
-sql
-Copiar
-Editar
 CREATE TABLE fan_profile (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(255),
@@ -76,6 +69,7 @@ CREATE TABLE fan_profile (
   score INT
 );
 
+```
 (Opcional) Crie um arquivo .env com suas credenciais do banco:
 
 env
@@ -93,7 +87,7 @@ Editar
 node index.js
 O servidor rodará na porta 3001.
 
-💻 Frontend
+## 💻 Frontend
 Acesse a pasta frontend e instale as dependências:
 
 bash
@@ -109,34 +103,8 @@ Editar
 npm run dev
 A aplicação estará disponível em http://localhost:5173.
 
-🔌 Rotas da API
-POST /api/fan-profile
-Cria um novo perfil de fã.
 
-Body esperado:
-
-json
-Copiar
-Editar
-{
-  "name": "João",
-  "avatar": "",
-  "team": "FURIA",
-  "age": 22,
-  "city": "São Paulo",
-  "level": "Sempre",
-  "score": 0
-}
-GET /api/fan-profile/:id
-Retorna os dados de um fã específico pelo id.
-
-GET /api/fan-ranking
-Retorna o ranking completo de fãs, ordenado pela pontuação (score).
-
-GET /api/test-db
-Testa a conexão com o banco de dados.
-
-##💡 Funcionalidades
+## 💡 Funcionalidades
 Criação e análise de perfis com base em frequência, humor e preferências
 
 Armazenamento de dados persistentes em banco de dados MySQL
