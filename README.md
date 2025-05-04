@@ -7,15 +7,6 @@ Este é um app criado para o Challenge #2 - Know Your Fan da FURIA. Ele coleta d
 - `npm install` para instalar dependências
 - `npm run dev` para rodar o projeto localmente
 
-## Tecnologias
-
-- React
-- Tailwind CSS
-- Vite
-
-  🐺 FURIA Fan Insight
-FURIA Fan Insight é uma aplicação web interativa que permite aos fãs da FURIA criarem seus perfis, responderem um formulário de análise de comportamento e visualizarem seu posicionamento no ranking da torcida.
-
 📸 Demonstração
 ⚡ O projeto pode ser dividido em três partes:
 
@@ -79,6 +70,7 @@ CREATE TABLE fan_profile (
   level VARCHAR(50),
   score INT
 );
+
 (Opcional) Crie um arquivo .env com suas credenciais do banco:
 
 env
@@ -144,12 +136,12 @@ Criação e análise de perfis com base em frequência, humor e preferências
 
 Armazenamento de dados persistentes em banco de dados MySQL
 
-Ranking dinâmico com pontuação
-
 Interface estilizada e responsiva com Tailwind
 
 📈 Possíveis melhorias
 Edição de perfil via modal ou nova página
+
+Ranking dinâmico com pontuação
 
 Avatar personalizado e upload de imagem
 
